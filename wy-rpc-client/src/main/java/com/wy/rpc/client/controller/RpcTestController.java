@@ -1,7 +1,9 @@
 package com.wy.rpc.client.controller;
 
+import com.wy.rpc.client.netty.NettyClient;
 import com.wy.rpc.common.annotation.RpcReference;
 import com.wy.rpc.facade.service.HiService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,6 +20,9 @@ public class RpcTestController {
 
     @RpcReference
     private HiService hiService;
+
+    // @Autowired
+    // private NettyClient nettyClient;
 
 
     /**

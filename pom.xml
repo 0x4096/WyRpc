@@ -11,6 +11,8 @@
     <modules>
         <module>wy-rpc-common</module>
         <module>wy-rpc-facade</module>
+        <module>wy-rpc-client</module>
+        <module>wy-rpc-server</module>
     </modules>
 
 
